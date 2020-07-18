@@ -34,5 +34,5 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: Deploy to surge
-      run: surge ./build needless-unit.surge.sh --token${{secrets.SURGE_TOKEN}}
+      run: surge ./build project02.surge.sh --token${{secrets.SURGE_TOKEN}}
      
